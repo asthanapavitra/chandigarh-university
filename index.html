@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment & Course Details</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        text-align: center;
+        line-height: 1.6;
+      }
+
+      .header-image {
+        width: 100%;
+        max-height: 250px;
+        object-fit: cover;
+      }
+
+      .receiver-info {
+        margin-top: 20px;
+        font-size: 1.1rem;
+        color: #333;
+      }
+
+      .qr-container {
+        margin: 30px 0;
+        margin-bottom: 10px;
+      }
+
+      .qr-code {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #ccc;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 8px;
+      }
+
+      .course-overview {
+        max-width: 100%;
+        margin: 40px;
+        text-align: left;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .course-overview h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        color: #222;
+      }
+
+      .course-overview ul {
+        padding-left: 20px;
+      }
+
+      .course-overview li {
+        margin-bottom: 8px;
+      }
+
+      .fee-breakdown {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top header image -->
+    <img src="cu_image.jpg" alt="Header" class="header-image" />
+
+    <!-- Receiver name -->
+    <p class="receiver-info">
+      Course Syllabus:<strong>
+        Communication and Soft Skills for Career Success</strong
+      >
+    </p>
+
+    <!-- QR Code -->
+    <div class="qr-container">
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi%3A%2F%2Fpay%3Fpa%3Dasthanapavitra-2%40oksbi%26pn%3DPavitra+Asthana%26am%3D1%26cu%3DINR%26tn%3DCourse+Fee"
+        alt="Scan to pay ₹11,000"
+        class="qr-code"
+      />
+    </div>
+    <p class="" style="font-size: 14px">
+      Scan this qr code to enroll in course
+    </p>
+
+    <!-- Course Overview & Syllabus -->
+    <div class="course-overview">
+      <h2>Course Overview</h2>
+      <p>
+        <strong>Semester:</strong> 3rd | <strong>Type:</strong> Compulsory |
+        <strong>Duration:</strong> 15 Weeks (Approx. 3.5 months) |
+        <strong>Total Hours:</strong> 60 | <strong>Credits:</strong> 3
+      </p>
+      <p>
+        <strong>Course Fee:</strong> Rs. 11,000 | <strong>Mode:</strong> Hybrid
+        (Offline + Online Support)
+      </p>
+
+      <h3>Course Objectives</h3>
+      <ul>
+        <li>Improve verbal and non-verbal communication.</li>
+        <li>Develop presentation and public speaking skills.</li>
+        <li>Master group discussions and personal interview techniques.</li>
+        <li>Build soft skills like teamwork, leadership, adaptability.</li>
+        <li>Create a job-ready resume and LinkedIn profile.</li>
+      </ul>
+
+      <h3>Modules & Duration</h3>
+      <ul>
+        <li>
+          <strong>Module 1:</strong> Foundation of Communication (4 Hours)
+        </li>
+        <li>
+          <strong>Module 2:</strong> Verbal & Non-Verbal Communication (6 Hours)
+        </li>
+        <li><strong>Module 3:</strong> Soft Skills Development (6 Hours)</li>
+        <li>
+          <strong>Module 4:</strong> Professional Writing Skills (6 Hours)
+        </li>
+        <li><strong>Module 5:</strong> Group Discussion Mastery (6 Hours)</li>
+        <li>
+          <strong>Module 6:</strong> Interview Preparation and Practice (8
+          Hours)
+        </li>
+        <li>
+          <strong>Module 7:</strong> Presentation & Public Speaking (6 Hours)
+        </li>
+        <li>
+          <strong>Module 8:</strong> Campus to Corporate Transition (4 Hours)
+        </li>
+        <li>
+          <strong>Module 9:</strong> Final Assessment & Placement Readiness (4
+          Hours)
+        </li>
+      </ul>
+
+      <h3>Teaching Methodology</h3>
+      <ul>
+        <li>Lectures + Activities</li>
+        <li>Case Studies & Industry Examples</li>
+        <li>Peer Reviews & Mock Rounds</li>
+        <li>Guest Sessions & Interactive Worksheets</li>
+      </ul>
+
+      <h3>Certification</h3>
+      <p>
+        Certificate of Excellence in Communication and Soft Skills will be
+        awarded upon successful completion.
+      </p>
+
+      <h3>Course Fee Breakdown (Rs. 11,000)</h3>
+      <ul class="fee-breakdown">
+        <li>Training Sessions (60 hours): Rs. 7,500</li>
+        <li>Study Material & Online Portal: Rs. 1,000</li>
+        <li>Mock Interviews & Feedback: Rs. 1,000</li>
+        <li>Certification & Final Assessment: Rs. 1,000</li>
+        <li>Career Guidance Add-on: Rs. 500</li>
+      </ul>
+
+      <h3>Optional Add-ons</h3>
+      <ul>
+        <li>One-on-one career counselling</li>
+        <li>Personalized resume and LinkedIn makeover</li>
+        <li>Advanced interview preparation with HR panelist</li>
+      </ul>
+    </div>
+  </body>
+</html>
